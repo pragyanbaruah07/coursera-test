@@ -1,0 +1,51 @@
+.navbar-toggle{
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+	}
+    .icon-bar{
+        border: 1px solid red;
+    }
+    @media(min-width: 768px){
+        .navbar-toggle{
+            display: none;
+        }
+    }
+		section{
+			background-color: grey;
+		}
+        h2{
+            text-align: center;
+            color: solid black;
+        }
+        h1{
+            text-align:center;
+        }
+		header{
+			background-color: #ff0000
+			
+	} 
+            div{
+        	text-transform: uppercase;
+        	color: white;
+            font-size: 35px;
+        }
+        p{
+        	font-size: 40px;
+        }
+        .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
